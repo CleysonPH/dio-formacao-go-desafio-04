@@ -4,7 +4,13 @@ Código com a solução do desafio 04 da formação Go Developer da Digital Inno
 
 ## Como executar
 
-Para executar o programa, basta executar o comando abaixo:
+Para executar o programa, primeiro é necessario baixar as dependências do projeto. Para isso, execute o comando abaixo:
+
+```bash
+go mod download
+```
+
+Após baixar as dependências, execute o comando abaixo para executar o programa:
 
 ```bash
 go run main.go
